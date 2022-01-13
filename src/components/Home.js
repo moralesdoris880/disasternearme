@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
+import Search from "./Search";
+import Header from "./Header";
 
 
 function Home(){
     return (
         <div> 
-            <img id="logo" src={"https://picsum.photos/200"} alt="TBA"/>  
+            <Header /> 
             <Search />
             <Footer />
         </div>
